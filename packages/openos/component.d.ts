@@ -122,6 +122,10 @@ declare module "component" {
         componentType: "internet"
     ): OpenOS.Internet | null;
     function get(address: string, componentType: "modem"): OpenOS.Modem | null;
+    function get(
+        address: string,
+        componentType: "trading"
+    ): OpenOS.Trading | null;
     function get(address: string, componentType: string): any | null;
 
     /**
@@ -154,6 +158,7 @@ declare module "component" {
     function getPrimary(componentType: "hologram"): OpenOS.Hologram;
     function getPrimary(componentType: "internet"): OpenOS.Internet;
     function getPrimary(componentType: "modem"): OpenOS.Modem;
+    function getPrimary(componentType: "trading"): OpenOS.Trading;
     function getPrimary(componentType: string): any;
 
     /**
@@ -261,6 +266,11 @@ declare module "component" {
      * This component represents an Network card.
      */
     const modem: OpenOS.Modem;
+
+    /**
+     * This component represents an Trading upgrades.
+     */
+    const trading: OpenOS.Trading;
 }
 
 declare namespace OpenOS {
@@ -284,5 +294,7 @@ declare namespace OpenOS {
         | "gpu"
         | "hologram"
         | "internet"
-        | "modem";
+        | "modem"
+        | "internet"
+        | "trading";
 }

@@ -15,6 +15,7 @@ import "./generator";
 import "./geolyzer";
 import "./gpu";
 import "./hologram";
+import "./trading";
 import "./internet";
 import "./modem";
 import "./redstone";

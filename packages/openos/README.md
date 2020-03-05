@@ -61,6 +61,7 @@ This package contains type declarations for [OpenOS](https://ocdoc.cil.li/).
 - [ ] Sign
 - [ ] Tank Controller
 - [ ] Tractor Beam
+- [x] Trading
 - [ ] Transposer
 - [ ] Tunnel
 - [ ] World Sensor
