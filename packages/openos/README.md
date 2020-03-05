@@ -56,7 +56,7 @@ This package contains type declarations for [OpenOS](https://ocdoc.cil.li/).
 - [ ] Net Splitter
 - [ ] Piston
 - [ ] Redstone
-- [ ] Robot
+- [x] Robot
 - [ ] Screen
 - [ ] Sign
 - [ ] Tank Controller

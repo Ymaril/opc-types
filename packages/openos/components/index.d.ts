@@ -17,3 +17,4 @@ import "./gpu";
 import "./hologram";
 import "./internet";
 import "./redstone";
+import "./robot";
