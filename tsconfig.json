@@ -10,6 +10,7 @@
         "types": ["lua-types/jit"]
     },
     "tstl": {
-        "luaTarget": "JIT"
+        "luaTarget": "JIT",
+        "luaLibImport": "inline"
     }
 }
