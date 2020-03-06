@@ -11,7 +11,7 @@
         "packages/*"
     ],
     "devDependencies": {
-        "lua-types": "^2.5.1",
-        "typescript-to-lua": "^0.22.1"
+        "lua-types": "^2.7.0",
+        "typescript-to-lua": "^0.31.0"
     }
 }
